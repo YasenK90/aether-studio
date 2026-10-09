@@ -100,8 +100,8 @@ function App(){
     <div className="heroTitleWrap">
       <motion.div className="heroTitle" style={{y:heroY}} initial={REDUCE?'show':'hidden'} animate="show" variants={heroV}>
         <span className="line"><motion.span className="lineIn" variants={lineV}>We make</motion.span></span>
-        <span className="line"><motion.span className="lineIn serif" variants={lineV}>Space</motion.span></span>
-        <span className="line"><motion.span className="lineIn" variants={lineV}>feel <em>inevitable.</em></motion.span></span>
+        <span className="line"><motion.span className="lineIn serif" variants={lineV}>Space feel</motion.span></span>
+        <span className="line"><motion.span className="lineIn" variants={lineV}><em>inevitable.</em></motion.span></span>
       </motion.div>
     </div>
 
